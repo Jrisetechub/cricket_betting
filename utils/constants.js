@@ -1,0 +1,18 @@
+module.exports = Object.freeze({
+    NOT_FOUND: 1404,
+    SERVER_ERROR: 1500,
+    SUCCESS: 1200,
+    ACCESS_DENIED: 1403,
+    NOT_VERIFIED: 1405,
+    ERROR_TRUE: true,
+    ERROR_FALSE: false,
+    TRUE: true,
+    FALSE: false,
+    DATA_NULL: null,
+    ERROR_CODE_TWO: 2,
+    ERROR_CODE_ONE: 1,
+    ERROR_CODE_ZERO: 0,
+    MAINTENANCE_STATUS: 101,
+    DEACTIVE_STATUS: 102,
+    DUPLICATE_RECORD_STATUS_CODE: 11000,
+});

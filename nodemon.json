@@ -1,0 +1,8 @@
+{
+    "events": {
+      "restart": "kill-port 3080",
+      "crash": "kill-port 3080"
+    }
+}
+
+

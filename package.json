@@ -1,0 +1,24 @@
+{
+  "name": "cricket_betting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "fuser tcp/3080 -k && nodemon ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saddam Husen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "joi": "^14.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.0",
+    "path-to-regexp": "^3.0.0",
+    "tronweb": "^3.0.0"
+  }
+}
