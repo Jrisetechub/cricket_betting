@@ -43,7 +43,7 @@ let ScoreSchema = new Schema({
     }
  });
 
-PlayerSchema.options.toJSON = {
+ ScoreSchema.options.toJSON = {
     transform: function (doc, ret, options) {
         ret.id = ret._id;
         delete ret._id;

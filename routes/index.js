@@ -1,5 +1,5 @@
 module.exports = {
-    controllerUser: require('./controllers/controllerUser'),
-    controllerAddress: require('./controllers/controllerAddress'),
-    controllerBook: require('./controllers/controllerBook')
+    controllerMatch: require('./controllers/controllerMatch'),
+    controllerPlayer: require('./controllers/controllerPlayer'),
+    controllerTeam: require('./controllers/controllerTeam')
 }
